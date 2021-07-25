@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      }
+      
+      ::-webkit-scrollbar-track {
+      border: 1px solid rgb(0, 0, 0);
+      }
+      
+      ::-webkit-scrollbar-thumb {
+      background: rgb(0, 0, 0);  
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+      background: #000000;  
+      }
+  
+  
+
+body html{
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+  .navbrand{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(0, 0, 0) !important;
+  }
+
+    .navitem{
+        color: rgb(0, 0, 0) !important;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 17px;
+        
+    }
+    .navitem:hover{
+        color:rgb(32, 29, 29) !important;
+        
+    }
+
+    .nav-item{
+        padding: 0px 18px;
+        text-align: center;  
+        
+      }
+.navbar{
+    padding: 2rem;
+}
+
+.nav__set:focus,
+.nav__set:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none !important;
+    border-color: transparent !important;
+    color: rgb(0, 0, 0) !important;
+}
+.nav__color{
+  border-color: transparent !important;
+  
+}
+
+.mainimage{
+
+  background-color: rgb(255, 255, 255);
+
+
+  margin: 0px;
+}
+
+.news{
+  background-color: #04082c;
+  color: white;
+}
+.news__head{
+  font-family: 'Dosis', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fulls{
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+}
+
+.heroheading{
+  font-family: 'Spartan', sans-serif;
+  font-size: 60px;
+  padding-top: 4rem;
+  filter: drop-shadow(20%);
+}
+
+.form-control{
+  box-shadow: none !important;
+}
+
+.btn__set{
+  padding-top: 2rem;
+}
+
+.btn{
+  box-shadow: none !important;
+}
+
+
+.waves__set{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #0A1931;
+
+}
+
+
+.sec__part{
+  background-color: #0A1931;
+margin: 0%;
+padding: 0%;
+overflow: hidden;
+}
+
+.element__part{
+  text-align: center;
+  padding: 2rem;
+  background-color: #0A1931;
+}
+
+.discover{
+  
+  color: white;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+}
+i{
+  font-size: 7rem;
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+  transition: 1s;
+}
+
+i:hover{
+  color:aquamarine;
+  transition: 1s;
+}
+
+.item__text{
+  color: white;
+  font-family: 'Spartan', sans-serif;
+}
+
+
+.sticky__top {
+  position:sticky !important;
+  top:0 !important;
+}
+
+.waves2__set{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  transform: rotate(180deg);
+  background-color: #0A1931;
+  outline: transparent;
+
+}
+
+.heroimg{
+  padding: .2rem;
+}
+
+.spacing{
+  height: 10px;
+}
+
+
